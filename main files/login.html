@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="cat.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 20px;
+             font-family: "Times New Roman", Times, serif;
+           
+        }
+        input{
+ font-family: "Times New Roman", Times, serif;
+           
+            border-color: rgb(177,148,112);
+            border-bottom: outset;
+        }
+
+        input[type="submit"] {
+            background-color: rgb(177,148,112);
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            cursor: pointer;
+
+        }
+        .home{
+display: flex;
+align-items: center;
+min-height: 120vh;
+background-size: 600px;
+font-size:3rem;
+}
+    </style>
+</head>
+<br>
+<br>
+<header>
+      <img class ="logo" src="logopic.png" width="120" height="120" alt="ourlogo">
+      <nav class="navbar"> 
+   
+    <a href="#"onmouseover="alert('You need to login first!');">Home</a> 
+    <a href="#"onmouseover="alert('You need to login first!');">Contact</a>
+    <a href="#" onmouseover="alert('You need to login first!');">For Jobs</a>
+    <br>
+
+       </nav>
+</header>
+<body>
+  <section class="home" id="home">
+     
+     <div class="content">
+      <br>
+      <br>
+      <h1>Herrah</h1>
+      <span>Login :</span>
+ <form action="Homepage.html">
+     
+     <label for="username">Username:</label>
+     <input type="text" id="username" name="username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+   <a href="Homepage.html"> <input type="submit" value="meow"> </a>
+ </form>
+
+     </div>
+
+  </section>
+</body>
+</html>

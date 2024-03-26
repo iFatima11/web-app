@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Display</title>
+      <meta charset="utf-8">
+    <link rel="stylesheet" href="marketcss.css">
+</head>
+<body>
+
+    <div class="about1"> 
+
+      <h1> cats wet food </h1> 
+      <p> ^-^ Here you will find everything your cat wants ^-^ </p>
+    
+   </div> 
+
+    <div class="product-container">
+        <div class="product-box">
+            <h2 class="product-name">Gourmet</h2>
+             <a> <img src="W-product1.jpg" align="center" alt="Home" width=" 100" height="100"> </a>
+            <p class="product-description">Wet cat food, suitable for all types of cats.</p>
+            <p class="product-price">19.99 SR</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+        
+        <div class="product-box">
+            <h2 class="product-name">Royal Canin</h2>
+            <a> <img src="W-product2.jpg" align="center" alt="Home" width=" 100" height="100"> </a>
+            <p class="product-description">Wet cat food, suitable for all types of cats.</p>
+            <p class="product-price">24.99 SR</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+        
+        <div class="product-box">
+            <h2 class="product-name">Royal Canin</h2>
+            <a> <img src="W-product3.jpg" align="center" alt="Home" width=" 100" height="100"> </a>
+            <p class="product-description">Wet cat food, suitable for all types of cats.</p>
+            <p class="product-price">29.99 SR</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+        
+        <div class="product-box">
+            <h2 class="product-name">Gourmet</h2>
+            <a> <img src="W-product4.jpg" align="center" alt="Home" width=" 100" height="100"> </a>
+            <p class="product-description">Wet cat food, suitable for all types of cats.</p>
+            <p class="product-price">14.99 SR</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-box">
+            <h2 class="product-name">Royal Canin</h2>
+            <a> <img src="W-product5.jpg" align="center" alt="Home" width=" 100" height="100"> </a>
+            <p class="product-description">Wet cat food, suitable for all types of cats.</p>
+            <p class="product-price">14.99 SR</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        <div class="product-box">
+            <h2 class="product-name">Dongwon</h2>
+            <a> <img src="W-product6.jpg" align="center" alt="Home" width=" 100" height="100"> </a>
+            <p class="product-description">Wet cat food, suitable for all types of cats.</p>
+            <p class="product-price">14.99 SR</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+
+        
+        
+        <!-- Add more product boxes as needed -->
+    </div>
+
+    <a href="market.html" class="home-link">Back to Home</a>
+ 
+
+    <footer>
+            Copyright &copy; 2024  Herrah <br />
+            <a href="Herrah@gmail.com">Herrah@gmail.com</a>
+            <div> 
+                <script>
+                    document.write("This page was last modified on: " + document.lastModified);
+                </script>
+            </div>
+        </footer>
+
+
+        <script>
+    
+    var addToCartBtns = document.querySelectorAll('.add-to-cart-btn:not(:first-child)');
+     
+     addToCartBtns.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            
+            alert('  Added successfully ^_^  ');
+        });
+    });
+</script>
+
+</body>
+</html>
